@@ -23,3 +23,21 @@ b. Cpf deve conter no máximo 11 caracteres;
 respectivas propriedades:
 a. PrimeiraClasse deve aceitar somente um valor booleano;
 b. Valor deve ser sempre maior do que zero;
+
+## Parte 3
+
+Com base no exercício anterior, organize a execução do código da seguinte
+maneira:
+a. Dê a opção de cadastrar um cliente e salve esse objeto em um array;
+b. Faça também a opção de cadastrar um Voo e salve esse objeto em um
+array;
+c. Por último, dê a opção de cadastrar um Pacote de Viagem e salve em um
+array;
+2. Considere as seguintes validações na hora de montar esse sistema:
+a. Quando for cadastrar um pacote de viagem, na hora de escolher a
+passagem de Ida mostra uma lista com todos os Voo cadastrados;
+b. Na hora de cadastrar a passagem de Volta, exibir apenas os Voo que tem o
+local de partida igual ao local de destino do Voo de Ida escolhido;
+c. Na hora de escolher um assento na passagem aérea, verifique se esse
+assento já não foi escolhido nesse voo, em caso positivo peça para escolher
+outro assento;
